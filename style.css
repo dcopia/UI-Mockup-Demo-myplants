@@ -1,7 +1,15 @@
 body {
-    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    color: #1A1C16;
+    background: #F9FAEF;
+    font-family: 'poppins', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 header {
@@ -15,7 +23,7 @@ header {
 }
 
 footer {
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     color: rgb(69, 69, 69);
     text-align: left;
     padding: 10px 5px;
@@ -38,7 +46,7 @@ main {
 }
 
 .water {
-    background: rgb(193, 244, 255);
+    background: #BCECE7;
     border: solid 1px #b0dbff;
 
     display: flex;
@@ -94,27 +102,27 @@ container p {
 }
 
 .plant {
-    background: rgb(249, 255, 209);
+    background: #EEEFE3;
     margin: 10px 0;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
-    border: 1px solid #fff25e;
 
 }
 
 .plant h2 {
-    color: #333;
+    color: #4C662B;
     margin-top: 20px;
     margin-bottom: 0;
-    font-size: 30px;
+    font-size: xx-large;
     text-align: center;
+    font-weight: 500;
 }
 
 .plant h3 {
-    color: #666;
+    color: #44483d;
     margin: 10px;
-    font-size: 20px;
+    font-size:medium;
     margin-top: 0;
     font-weight: 500;
     text-align: center;
@@ -123,9 +131,9 @@ container p {
 }
 
 .plant p {
-    color: #666;
+    color: #1A1C16;
     padding: 10px;
-    font-size: 16px;
+    font-size: medium;
     line-height: 1.5;
     margin-top: 10px;
     margin-bottom: 0;
@@ -170,7 +178,7 @@ container p {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    background-color: #e8e9de;
     color: rgb(255, 0, 0);
     padding: 10px 0;
     height: 35px;
@@ -186,13 +194,12 @@ container p {
     
 }
 
-.plus-button {
+/* .plus-button {
     font-size: 60px;
     color: white;
     background-color: #7b63ff;
     border: none;
     border-radius: 50%;
-    /* Ensures the border stays circular */
     width: 70px;
     height: 70px;
     display: flex;
@@ -202,15 +209,11 @@ container p {
     position: relative;
     top: -15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    /* Shadow for depth */
     clip-path: circle(50% at 50% 50%);
-    /* Clip to maintain the circle even if overflow */
     min-width: 70px;
-    /* Minimum width */
     min-height: 70px;
-    /* Minimum height */
 }
-
+ */
 .footer-bar:after, .footer-bar:before {
     content: "";
     flex: 1;
@@ -230,8 +233,8 @@ container p {
     }
 
     main {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
 
